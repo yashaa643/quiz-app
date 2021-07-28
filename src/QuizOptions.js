@@ -13,7 +13,7 @@ class QuizOptions extends React.Component{
     render(){
         const {option} = this.props;
         return(
-            <div className="fields" onClick={this.callParentCheckOptions}>
+            <div className="fields animate__animated animate__zoomIn" onClick={this.callParentCheckOptions}>
                 <div className="field-block">{option}</div>
             </div>
         );

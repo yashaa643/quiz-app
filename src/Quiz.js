@@ -112,7 +112,7 @@ class Quiz extends React.Component{
                 What is the sum of <span className="text-info">{riddle.field1}</span> and <span className="text-info">{riddle.field2}</span>  ?</p>
                 {this.renderOptions()}
               </div> 
-              <div className={classNames("after",{'hide':!gameOver},{'wrong':!correct},{'correct':correct})}>
+              <div className={classNames("after",{'hide':!gameOver},{'wrong':!correct},{'correct':correct},"animate__animated animate__zoomInDown")}>
                 {this.renderMessage()}
               </div> 
               <div className="play-again">
