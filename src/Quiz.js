@@ -116,7 +116,7 @@ class Quiz extends React.Component{
                 {this.renderMessage()}
               </div> 
               <div className="play-again">
-            <a className="button" onClick={this.playAgain}>Play Again</a>
+            <a href="_blank" className="button" onClick={this.playAgain}>Play Again</a>
               </div> 
          </div>
         </>
